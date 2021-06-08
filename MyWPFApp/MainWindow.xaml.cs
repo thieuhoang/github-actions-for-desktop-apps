@@ -28,7 +28,7 @@ namespace MyWPFApp
 
             if (ButtonShowRuntimeVersionInfo.Content.ToString().StartsWith("Show"))
             {
-                RuntimeVersionInfo.Text = ThisAppInfo.GetDotNetRuntimeInfo();                
+                RuntimeVersionInfo.Text = ThisAppInfo.GetDotNetRuntimeInfo();
                 ButtonShowRuntimeVersionInfo.Content = "Hide Runtime Info";
             }
             else
